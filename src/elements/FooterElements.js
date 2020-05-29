@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 export const FooterWrapper = styled.footer`
   grid-column: 2 / span 12;
-  min-height: 11.25rem;
-  padding: 3rem 0;
+  min-height: 10rem;
+  padding: 2.5rem 0;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -13,13 +13,16 @@ export const FooterWrapper = styled.footer`
   }
 `
 export const FooterSocialWrapper = styled.div`
+  text-align: center;
+  display: flex
   flex-wrap: wrap;
   align-items: center;
-  text-align: center;
+  
 
   &p {
-    text-align: center;
     flex: 0 0 100%;
+    text-align: center;
+    
   }
 `
 export const FooterSocialIcons = styled.div`
@@ -28,7 +31,7 @@ export const FooterSocialIcons = styled.div`
 
   & img {
     height: 30px;
-    padding: 0 1rem;
+    padding: 0 0.7rem;
     opacity: 0.6;
     transition: 0.3s ease;
   }

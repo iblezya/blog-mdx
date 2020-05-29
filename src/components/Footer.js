@@ -29,16 +29,32 @@ export const Footer = () => {
     <FooterWrapper>
       <FooterSocialWrapper>
         <FooterSocialIcons>
-          <a href="https://facebook.com" target="_blank" rel="Facebook">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={data.facebook.publicURL} alt="Facebook icon" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="Linkedin">
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={data.linkedin.publicURL} alt="Linkedin icon" />
           </a>
-          <a href="https://youtube.com" target="_blank" rel="Youtube">
+          <a
+            href="https://youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={data.youtube.publicURL} alt="Youtube icon" />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="Instagram">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={data.instagram.publicURL} alt="Instagram icon" />
           </a>
         </FooterSocialIcons>
