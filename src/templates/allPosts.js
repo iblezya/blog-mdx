@@ -27,7 +27,7 @@ const allPosts = ({ pageContext, data }) => {
         <P color="dark2" textAlign="center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           mattis nulla vitae nulla porta, et porta arcu vulputate. Mauris dictum
-          est sodales, maximus elit vel, lacinia augue.{" "}
+          est sodales, maximus elit vel, lacinia augue.
         </P>
         {posts.map(post => (
           <ContentCard
